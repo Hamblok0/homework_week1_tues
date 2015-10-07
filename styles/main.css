@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+#header {
+  background-color: #118BC0;
+  padding: 25px;
+  margin: 7px 0 0 0;
+}
+
+#intro {
+  background-color: #344051;
+  color: white;
+  margin: 0;
+  padding: 0 0 50px 0
+}
+
+h1 {
+  padding: 170px 0 41px 0;
+  text-align: center;
+  font-weight: normal;
+  width: 400px;
+  margin: 0 auto;
+}
+
+h2 {
+  padding: 0 0 35px 0;
+  text-align: center;
+  font-weight: normal;
+  font-size: 100%;
+  width: 260px;
+  margin: 0 auto 20px auto;
+}
+
+#button1 {
+  background-color: #1A79A4;
+  height: 70px;
+  width: 225px;
+  margin: 0 auto;
+  border: 10px solid #212934;
+}
+
+#tinybutton {
+  height: 20px;
+  width: 50px;
+  background-color: white;
+  margin: 210px auto 135px auto;
+}
+
+.button2 {
+  background-color: white;
+  margin: 0 auto 30px auto;
+  height: 70px;
+  width: 300px;
+}
+
+
+#partition1 {
+  height: 189px;
+  background-color: #E8F0F5
+}
+
+#moreinfo {
+  background-color: #D1D3D7;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.infowindow {
+  background-color: white;
+  height: 216px;
+  width: 487px;
+  margin: 32px auto 32px auto;
+  text-align: center
+}
+
+#outro {
+  padding: 1px;
+  background-color: #E8F0F5
+
+}
+
+#button1_2 {
+  background-color: #1A79A4;
+  height: 53px;
+  width: 207px;
+  margin: 98px auto 21px auto;
+}
+
+#footer{
+  background-color: black;
+  padding-bottom: 1px;
+}
+
+#footer ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 450px;
+  text-align: center;
+  padding-top: 28px;
+}
+
+#footer ul li{
+  display: inline;
+  color: white;
+  font-weight: lighter;
+  font-size: .75em;
+  padding: 0 10px;
+
+}
+
+#bottombox {
+  background-color: white;
+  margin: 25px auto 20px auto;
+  height: 23px;
+  width: 133px;
+
+}
