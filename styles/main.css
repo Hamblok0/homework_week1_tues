@@ -4,8 +4,48 @@
 
 #header {
   background-color: #118BC0;
-  padding: 25px;
+  height: 48px;
+  width: 100%;
+}
+
+.sitetitle {
+  padding: 8px 0 8px 15px;
+  overflow: auto;
+  width: 50%;
+  float: left;
+
+}
+
+.logo {
+  background: white;
+  height: 32px;
+  width: 33px;
+  margin: 0 14px 0 0;
+  float: left;
+}
+
+.title {
+  background: #118BC0;
+  height: 32px;
+  width: 120px;
+  float: left;
+  color: white;
+  text-align: center;
   margin: 7px 0 0 0;
+}
+.comcolor {
+  color: #9BCDE3;
+}
+.login {
+  background-color: #0070A4;
+  float: right;
+  height: 43px;
+  width: 75px;
+  display: block;
+  border-style: none;
+  box-sizing: content-box;
+  color: white;
+  font-size: smaller;
 }
 
 #intro {
@@ -19,7 +59,7 @@ h1 {
   padding: 170px 0 41px 0;
   text-align: center;
   font-weight: normal;
-  width: 400px;
+  width: 375px;
   margin: 0 auto;
 }
 
@@ -32,15 +72,29 @@ h2 {
   margin: 0 auto 20px auto;
 }
 
-#button1 {
+.button1 {
+  padding: 0;
+  display: block;
   background-color: #1A79A4;
-  height: 70px;
-  width: 225px;
+  height: 53px;
+  width: 207px;
   margin: 0 auto;
-  border: 10px solid #212934;
-}
+  border: none;
+  box-sizing: content-box;
+  font-size: 1.25em;
+  color: white;
 
-#tinybutton {
+}
+ .button1.border {
+ border: 10px solid #212934;
+ }
+
+
+
+
+.tinybutton {
+  border-style: none;
+  display: block;
   height: 20px;
   width: 50px;
   background-color: white;
@@ -48,16 +102,45 @@ h2 {
 }
 
 .button2 {
-  background-color: white;
+  background-color: none;
   margin: 0 auto 30px auto;
   height: 70px;
   width: 300px;
 }
 
+.imagebox {
+  background-color: #616E7F;
+  height: 58px;
+  width: 49px;
+  float: left;
+  margin: 12px 0 0 0;
+}
+
+.textbox {
+  background-color: #344051;
+  height: 55px;
+  width: 240px;
+  margin: 0 4px 12px 0;
+  float: right;
+}
+
+.textbox h3 {
+  margin: 0 0 15px 0;
+}
+
+.textbox article {
+  font-size: smaller;
+}
+
 
 #partition1 {
   height: 189px;
-  background-color: #E8F0F5
+  background-color: #E8F0F5;
+  font-size: 2.50em;
+  text-align: center;
+  color: #314156;
+  font-weight: lighter;
+
 }
 
 #moreinfo {
@@ -71,49 +154,96 @@ h2 {
   height: 216px;
   width: 487px;
   margin: 32px auto 32px auto;
+  padding: 20px 17px 0 17px;
   text-align: center
 }
 
+.infoimagebox {
+
+  height: 63px;
+  width: 62px;
+  float:center;
+  margin: 0 auto 12px auto;
+  background-color: #C7D2D8;
+
+}
+.infotextbox{
+  width: 100%;
+  height: 23px;
+  background-color: none;
+  margin: 0 0 17px 0;
+}
+
+.infotextbox article {
+  text-align: center;
+  color: #2D4352;
+  font-size: 1.35em;
+  font-weight: normal;
+}
+
+.textbox2 {
+  width: 100%;
+  height: 49px;
+  background-color: none;
+}
+ .textbox2 article {
+   width: 90%;
+   margin: 0 auto;
+ }
 #outro {
-  padding: 1px;
+  text-align: center;
+  padding: 30px 0 20px 0;
   background-color: #E8F0F5
+
 
 }
 
-#button1_2 {
+#outro .button1 {
   background-color: #1A79A4;
   height: 53px;
   width: 207px;
-  margin: 98px auto 21px auto;
+  margin: 50px auto 0 auto;
+}
+
+#outro article {
+  font-weight: lighter;
+  font-size: 1.50em;
+  color: #314156;
+
+
+
+
 }
 
 #footer{
   background-color: black;
-  padding-bottom: 1px;
+  padding: 17px;
 }
 
-#footer ul {
-  list-style: none;
-  margin: 0 auto;
-  padding: 0;
-  width: 450px;
-  text-align: center;
-  padding-top: 28px;
+nav.mainsite, nav.legal {
+  text-align:center;
 }
 
-#footer ul li{
-  display: inline;
+nav.mainsite a, nav.legal a{
   color: white;
-  font-weight: lighter;
+  text-decoration: none;
+  margin: 0 17px 0 0;
   font-size: .75em;
-  padding: 0 10px;
+}
 
+nav.mainsite {
+  margin: 0 0 17px 0;
+}
+
+nav.legal {
+  margin: 0 0 17px 0;
 }
 
 #bottombox {
   background-color: white;
-  margin: 25px auto 20px auto;
+  margin: 25px auto 0 auto;
   height: 23px;
   width: 133px;
+  display: block;
 
 }
